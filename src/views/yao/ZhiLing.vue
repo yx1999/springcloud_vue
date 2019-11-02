@@ -2,7 +2,7 @@
   <div style="margin-left: 30px;">
     <el-breadcrumb separator-class="el-icon-arrow-right">
       <el-breadcrumb-item>智能应答管理</el-breadcrumb-item>
-      <el-breadcrumb-item>关键字指令</el-breadcrumb-item>
+      <el-breadcrumb-item>关键字指令啊啊啊啊啊啊啊啊</el-breadcrumb-item>
     </el-breadcrumb>
 
     <!-- 搜索筛选 -->
