@@ -42,33 +42,35 @@
           username: this.username,
 					password: this.password
 				};
-				let url = this.axios.urls.SYS_USER_DOLOGIN;
-				this.axios.post(url, form).then((resp) => {
-					// debugger;
-					if (0 == resp.data.code) {
-						this.$message({
-							message: resp.data.message,
-							type: 'success'
-						});
+				// let url = this.axios.urls.SYS_USER_DOLOGIN;
+				// this.axios.post(url, form).then((resp) => {
+				// 	// debugger;
+				// 	if (0 == resp.data.code) {
+				// 		this.$message({
+				// 			message: resp.data.message,
+				// 			type: 'success'
+				// 		});
 						this.$store.commit('setUserId', {
-							userId: resp.data.result
+							// userId: resp.data.result
+							userId: 1
 						});
 						this.$store.commit('setUserName', {
+							// username: this.username
 							username: this.username
 						});
             this.$router.replace({
               path: '/AppMain'
             });
 
-					} else {
-						this.$message({
-							message: resp.data.message,
-							type: 'warning'
-						});
-					}
-				}).catch((error) => {
-					console.log('有错');
-				});
+				// 	} else {
+				// 		this.$message({
+				// 			message: resp.data.message,
+				// 			type: 'warning'
+				// 		});
+				// 	}
+				// }).catch((error) => {
+				// 	console.log('有错');
+				// });
 			}
 		},
 		created() { //生命周期里接收参数

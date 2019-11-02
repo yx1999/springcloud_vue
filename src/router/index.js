@@ -31,6 +31,9 @@ import FaBiao from '@/views/yao/FaBiao'
 import ShiPin from '@/views/yao/ShiPin'
 
 
+import ZhiLing from '@/views/yao/ZhiLing'
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -147,7 +150,12 @@ export default new Router({
           name: 'ShiPin',
           component: ShiPin
         }
-
+        ,
+        {
+          path: '/yao/ZhiLing',
+          name: 'ZhiLing',
+          component: ZhiLing
+        }
       ]
     }
   ]

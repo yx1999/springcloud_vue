@@ -4,10 +4,10 @@
  */
 export default {
 	//服务器
-	'SERVER': 'http://localhost:8080/ssmP2P/',
+	'SERVER': 'http://localhost:7201/',
 
 	//菜单管理
-	'BASE_TREENODE_LISTALL': 'base/listAll',
+	'BASE_TREENODE_LISTALL': 'treeNode/list',
 
   //用戶
   'BASE_YONGHU_LIST1': 'logininfo/list',
@@ -53,7 +53,7 @@ export default {
 
 
 	//获得请求的完整地址，用于mockjs测试时使用
-
+  //智能应答管理
   //实名认证
   'YAO_REALAUTH_EDIT': 'realauth/edit',
   'YAO_REALAUTH_LOAD': 'realauth/load',
