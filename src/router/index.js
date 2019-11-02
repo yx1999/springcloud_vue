@@ -28,7 +28,6 @@ import TiXian from '@/views/yao/TiXian'
 import one from '@/views/yao/one'
 import two from '@/views/yao/two'
 import FaBiao from '@/views/yao/FaBiao'
-import ShiPin from '@/views/yao/ShiPin'
 
 
 import ZhiLing from '@/views/yao/ZhiLing'
@@ -143,12 +142,6 @@ export default new Router({
           path: '/yao/FaBiao',
           name: 'FaBiao',
           component: FaBiao
-        }
-        ,
-        {
-          path: '/yao/ShiPin',
-          name: 'ShiPin',
-          component: ShiPin
         }
         ,
         {
