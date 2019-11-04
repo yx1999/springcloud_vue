@@ -10,7 +10,7 @@ import MingXi from '@/views/ren/MingXi'
 import QuanXian from '@/views/ren/QuanXian'
 import JueSe from '@/views/ren/JueSe'
 
-import DengLu from '@/views/ren/DengLu'
+import Notice from '@/views/ren/Notice'
 
 
 import YongHu from '@/views/zou/YongHu'
@@ -75,9 +75,9 @@ export default new Router({
           component: JueSe
         },
         {
-          path: '/ren/DengLu',
-          name: 'DengLu',
-          component: DengLu
+          path: '/ren/Notice',
+          name: 'Notice',
+          component: Notice
         },
         {
           path: '/zou/YongHu',

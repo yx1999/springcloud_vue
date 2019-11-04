@@ -24,28 +24,11 @@ export default {
   //账户流失
   'BASE_ZHANGHU_LISTALL':'repayment/list',
 
-  //安全管理
-	'REN_DICT_LIST': 'dict/list',
-	'REN_DICT_DEl': 'dict/del',
-	'REN_DICT_ADDEDIT': 'dict/addEdit',
+  //模板通知管理
+	'REN_TEMPLATE_LIST': 'notice/list',
+	'REN_TEMPLATE_DEL': 'notice/del',
+	'REN_TEMPLATE_ADDUPDATE': 'notice/addUpdate',
 
-	'REN_DICTITEM_LIST': 'dictItem/list',
-	'REN_DICTITEM_DEL': 'dictItem/del',
-	'REN_DICTITEM_ADDEDIT': 'dictItem/addEdit',
-
-	'REN_ROLE_ADDEDIT': 'role/addEdit',
-	'REN_ROLE_DEL': 'role/del',
-	'REN_ROLE_LIST': 'role/list',
-	'REN_ROLE_ADD': 'role/addRole',
-
-  'REN_PERMISSION_ADDEDIT': 'per/addEdit',
-  'REN_PERMISSION_DEL': 'per/del',
-  'REN_PERMISSION_LIST': 'per/list',
-
-  'REN_HISTORY_ADDEDIT': 'history/addEdit',
-  'REN_HISTORY_DEL': 'history/del',
-  'REN_HISTORY_DELLIST': 'history/delList',
-  'REN_HISTORY_LIST': 'history/list',
 
   'SYS_USER_DOLOGIN': 'user/login',
   'SYS_USER_DOLOGINOUT': 'user/loginOut',
